@@ -56,7 +56,7 @@ The toolbox is regulary tested on Matlab 2015b,2017a,2017b.
 For complete functionality the Control Systems Toolbox is required. 
 
 ### To-Do list:
-- import/export from\to Robust Control Toolbox
+- import/export from\to Robust Control Toolbox without using symbolic toolbox
 - cascade design support
 - MIMO design support
 
