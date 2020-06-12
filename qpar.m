@@ -81,6 +81,10 @@ classdef qpar  < matlab.mixin.CustomDisplay
             %UPLUS unary plus
             obj = qexpression([],A,'+');
         end
+        function obj = power(A,n)
+            %Power A^n
+            obj = qexpression(A,n,'^');
+        end
         function obj = minus(A,B)
             %MINUS substruct qpar elements 
             if isnumeric(B) || isa(B,'qpar') ||  isa(B,'qexpression') 
